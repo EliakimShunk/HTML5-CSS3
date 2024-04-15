@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML5 medias</title>
+</head>
+<body>
+<h1>Dynamic images</h1>
+<p>Try to open this website on different devices, increase or decrease the
+    size of your web browser.</p>
+<picture>
+    <source media="(max-width: 750px)" srcset="images/p_300x300.png"
+            type="image/png">
+    <source media="(max-width: 1050px)" srcset="images/m_700x700.png"
+            type="image/png">
+    <img src="images/g_1000x1000.png" alt="Word G">
+</picture>
+<h1>Playing audio</h1>
+<p>We are going to learn to play audios in HTML5.</p>
+<!-- <audio src="media/music.mp3" controls autoplay></audio> -->
+<!-- MP3 WAV OGG -->
+<audio preload="metadata" controls loop>
+    <source src="media/music.mp3" type="audio/mpeg">
+   <!-- <source src="media/music.wav" type="audio/wav">
+    <source src="media/music.ogg" type="audio/ogg"> -->
+    <p>Your web browser isn't compatible with the audio file.
+        <a href="media/music.mp3">Click here to download the .mp3 file</a></p>
+</audio>
+</body>
+</html>

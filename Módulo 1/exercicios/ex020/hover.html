@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hover example</title>
+    <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    div{
+        width: 90px;
+    }
+
+    div > p{
+        display: none;
+    }
+
+    div:hover > p{
+        display: block;
+        color: white;
+        background-color: red;
+        width: 110px;
+    }
+
+    div:hover{
+        color: red;
+    }
+</style>
+</head>
+<body>
+<h1>Example</h1>
+<p>Hover your cursor over the text bellow</p>
+<div>
+    Hover here.
+    <p>HIDDEN TEXT!</p>
+</div>
+<p>END</p>
+</body>
+</html>

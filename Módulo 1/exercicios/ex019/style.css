@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*
+    in HTML id, but in CSS is # (use only in one element per html file)
+    in HTML class, but in CSS is . (can be used in numerous elements)
+*/
+
+
+body{
+    background-color: #6de36d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #1b651b;
+}
+
+#main-h1{
+    text-align: center;
+    background-color: white;
+}
+
+h2{
+    color: #5a815a;
+}
+
+.basic{
+    color: #5a815a;
+    font-weight: bold;
+}
+
+.intermediary{
+    color: #81805a;
+}
+
+.advanced{
+    color: #815a5a;
+}
+
+.highlight{
+    color: #494747;
+    background-color: white;
+}
